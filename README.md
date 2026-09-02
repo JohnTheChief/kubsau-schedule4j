@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.OWNER:REPO:v1.0.0")
+    implementation("com.github.JohnTheChief:kubsau-schedule4j:1.0.0")
 }
 ```
 
