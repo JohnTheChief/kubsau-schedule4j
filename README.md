@@ -20,9 +20,9 @@ Maven:
 
 <dependencies>
     <dependency>
-        <groupId>com.github.OWNER</groupId>
-        <artifactId>REPO</artifactId>
-        <version>v1.0.0</version>
+        <groupId>com.github.JohnTheChief</groupId>
+        <artifactId>kubsau-schedule4j</artifactId>
+        <version>1.0.0</version>
     </dependency>
 </dependencies>
 ```
