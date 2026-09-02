@@ -1,0 +1,6 @@
+# Конфигурация сборки на JitPack (https://jitpack.io).
+# По умолчанию JitPack собирает на JDK 8, а библиотека использует records и Java 17.
+jdk:
+  - openjdk17
+install:
+  - mvn -B install -DskipTests

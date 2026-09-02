@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Расписание занятий Кубанского государственного аграрного университета">
+  <meta name="keywords" content="">
+  <meta name="theme-color" content="#ffffff">
+  <title>Расписание занятий - Кубанский государственный аграрный университет</title>
+  <link href="/bitrix/templates/gom/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/bitrix/templates/gom/assets/css/mdb.min.css?111" rel="stylesheet">	
+  <link href="/bitrix/templates/gom/assets/css/style.css?123" rel="stylesheet">
+  <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Кубанский государственный аграрный университет, КубГАУ, расписание, расписание занятий" />
+<meta name="description" content="Кубанский государственный аграрный университет - расписание занятий" />
+<link href="/bitrix/cache/css/s1/gom/page_14c0489b5347f12af421116fd891d186/page_14c0489b5347f12af421116fd891d186_v1.css?177925685732702" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/gom/template_61ec617604c4e7233de591f3e8cd3b68/template_61ec617604c4e7233de591f3e8cd3b68_v1.css?1779256857548" type="text/css" rel="stylesheet" data-template-style="true"/>
+<script  src="/bitrix/cache/js/s1/gom/template_0cae1718aa25fdfe46185ec69d9b6c64/template_0cae1718aa25fdfe46185ec69d9b6c64_v1.js?177925685787229"></script>
+<script  src="/bitrix/cache/js/s1/gom/page_41ffdaed754998e983941fcbd6feeb8d/page_41ffdaed754998e983941fcbd6feeb8d_v1.js?1779256857256710"></script>
+
+    
+
+</head>
+<body >
+		<section class="header">
+				<div class="container-fluid py-2">
+			<div class="row">
+				<div class="col-12 d-flex align-items-center">
+										<a class="d-block m-auto" href="https://kubsau.ru" title="На главную"><img class="logo img-fluid" src="https://kubsau.ru/upload/kubsau_logo.svg" alt="Кубанский ГАУ"></a>
+            </div>
+        <a class="info-link d-none d-xl-block" href="https://kubsau.ru/info/" title="Информация об университете">
+          Информация об университете
+        </a>
+        <a class="blind" href="/?special_version=Y" title="Версия для слабовидящих">
+          <img src="/bitrix/templates/gom/assets/img/blind.svg" alt="Версия для слабовидящих">
+        </a>
+			</div>
+		</div>
+
+
+	</section>
+
+	<section class="page">
+
+
+
+<div class="col-xl-10 m-auto col-md-12">
+
+    
+<div class="container-fluid main-wrapper">
+    <div class="row">
+        <div class="col-12 m-sm-auto">
+            <div class="main">
+                <div class="schedule-form">
+
+                    
+<div class="row mt-2">
+    <div class="col-12">
+        <h1 class="h1-responsive mt-3 text-center">Расписание занятий</h1>
+<!--        <p class="text-center"><small><strong style="color: rgb(204, 0, 0);">Уважаемые студенты и-->
+<!--                    преподаватели!</strong><br>В условиях реализации мер по предупреждению распространения новой-->
+<!--                коронавирусной инфекции возможна коррекция расписания!</small></p>-->
+        <form class="w-100 mt-3">
+
+            <div class="form-row">
+                <div class="form-group col-md-4 col-12 text-center">
+                    <div class="form-diss-info md-form">
+                        <fieldset class="form-check radio-button">
+                            <input class="radio_schedule" name="type_schedule" type="radio" value="1"
+                                   id="by_diss-info" checked="checked">
+                            <label for="by_diss-info" class="waves-effect waves-light schedule-search-button">По
+                                группе</label>
+                        </fieldset>
+                        <fieldset class="form-check radio-button">
+                            <input class="radio_schedule" name="type_schedule" type="radio" value="3"
+                                   id="by_class">
+                            <label for="by_class" class="waves-effect waves-light schedule-search-button">По
+                                аудитории</label>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="form-group col-md-6 col-9">
+                    <div class="form-diss-info md-form autocomplete-suggestions">
+                                                    <label for="diss-info" class="schedule-placeholder">Введите номер группы</label>
+                                                <input type="text" name="val" class="form-control" id="diss-info"
+                               data-suggestions-url="/bitrix/components/atom/atom.education.schedule.remote.data/get.php">
+                    </div>
+                </div>
+                <div class="form-group col-md-2 col-3">
+                    <button type="submit" class="btn btn-default waves-effect waves-light schedule-search-button">
+                                                <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    window.onload = function () {
+        try {
+            if (pairChecker !== undefined) {
+                pairCheckerTaskId = setInterval(pairChecker.refresh, 60000);
+                console.log("PairChecker: started.");
+            }
+        } catch (error) {
+            console.log("PairChecker: not started." + error);
+        }
+    };
+</script>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+	</section>
+
+	<section class="footer">
+
+	</section>
+  
+
+
+
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
+        <script src="/bitrix/templates/gom/assets/js/bootstrap.min.js"></script>
+        <script src="/bitrix/templates/gom/assets/js/mdb.min.js"></script>
+        <script src="/bitrix/templates/gom/assets/js/ie10-viewport-bug-workaround.js"></script>  
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(1124486, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/1124486" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15488526-21"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15488526-21');
+</script>
+
+
+
+</body>
+</html>
