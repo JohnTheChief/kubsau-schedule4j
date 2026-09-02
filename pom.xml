@@ -11,7 +11,7 @@
 
     <name>KubSAU Schedule Library</name>
     <description>Клиент для расписания занятий КубГАУ (s.kubsau.ru): поиск групп и получение расписания на две недели</description>
-    <url>https://github.com/${github.repository}</url>
+    <url>https://github.com/JohnTheChief/kubsau-schedule4j</url>
 
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
@@ -20,14 +20,12 @@
         <jsoup.version>1.21.2</jsoup.version>
         <gson.version>2.13.1</gson.version>
         <junit.version>5.13.4</junit.version>
-        <!-- owner/repo на GitHub -->
-        <github.repository>heyjohn/KubSauScheduleLib</github.repository>
     </properties>
 
     <scm>
-        <url>https://github.com/${github.repository}</url>
-        <connection>scm:git:https://github.com/${github.repository}.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.repository}.git</developerConnection>
+        <url>https://github.com/JohnTheChief/kubsau-schedule4j</url>
+        <connection>scm:git:https://github.com/JohnTheChief/kubsau-schedule4j.git</connection>
+        <developerConnection>scm:git:git@github.com:JohnTheChief/kubsau-schedule4j.git</developerConnection>
     </scm>
 
     <dependencies>
