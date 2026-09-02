@@ -22,7 +22,7 @@ Maven:
     <dependency>
         <groupId>com.github.JohnTheChief</groupId>
         <artifactId>kubsau-schedule4j</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </dependency>
 </dependencies>
 ```
@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.JohnTheChief:kubsau-schedule4j:1.0.0")
+    implementation("com.github.JohnTheChief:kubsau-schedule4j:1.0.1")
 }
 ```
 
