@@ -1,6 +1,8 @@
 # Конфигурация сборки на JitPack (https://jitpack.io).
-# По умолчанию JitPack собирает на JDK 8, а библиотека использует records и Java 17.
+# По умолчанию JitPack собирает на JDK 8 старым Maven, а библиотека использует
+# Java 17 и плагины, требующие Maven 3.6.3+. Поэтому JDK 17 и Maven Wrapper (mvnw).
 jdk:
   - openjdk17
 install:
-  - mvn -B install -DskipTests
+  - chmod +x mvnw
+  - ./mvnw -B install -DskipTests

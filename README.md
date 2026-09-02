@@ -131,16 +131,6 @@ mvn test
 mvn test -Dkubsau.live=true
 ```
 
-## Публикация
-
-Отдельного шага публикации нет: JitPack собирает библиотеку из GitHub по запросу.
-Чтобы выпустить версию, достаточно запушить тег или создать Release на GitHub:
-
-```bash
-git tag v1.0.0
-git push origin v1.0.0
-```
-
 Первый запрос зависимости `com.github.OWNER:REPO:v1.0.0` запустит сборку на JitPack
 (команда и JDK заданы в `jitpack.yml`), дальше артефакт отдаётся из кеша.
 Статус сборки и лог: `https://jitpack.io/#OWNER/REPO`.
